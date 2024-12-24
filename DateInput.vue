@@ -35,7 +35,7 @@
         <v-date-picker
             v-model="date"
             scrollable
-            :locale="$datepickerLocale()"
+            locale="de"
             @input="menu = false"
         ></v-date-picker>
     </v-menu>
